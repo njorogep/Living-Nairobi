@@ -1,5 +1,5 @@
 /* ==========================================================
-   LIVING NAIROBI — SITE SCRIPTS
+   NAMNA — SITE SCRIPTS
    Shared across index.html (front page) and post.html
    (single post). Sections are labeled with the WordPress
    template file they will eventually map to.
@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Contextual hero CTA copy, keyed by each slide's category (its
     // .eyebrow text, lowercased) — WP: this would key off post_category
     // once slides are dynamic. Falls back to a sensible default for any
-    // category not explicitly mapped (e.g. Society).
+    // category not explicitly mapped (e.g. Events).
     const CTA_BY_CATEGORY = {
       style: 'Read the Story',
       fashion: 'Read the Story',
@@ -92,6 +92,7 @@ document.addEventListener('DOMContentLoaded', () => {
       places: 'Discover Destination',
       table: 'View the Menu',
       dining: 'View the Menu',
+      events: 'See the Highlights',
       people: 'Read Interview',
       interviews: 'Read Interview',
       'the view': 'Full Article',

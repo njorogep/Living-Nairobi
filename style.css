@@ -1,5 +1,5 @@
 /* ==========================================================
-   LIVING NAIROBI — SITE STYLESHEET
+   NAMNA — SITE STYLESHEET
    Shared across index.html (front page) and post.html
    (single post). Sections are labeled with the WordPress
    template file they will eventually map to.
@@ -149,8 +149,11 @@ header.main.is-stuck{
 .mobile-nav-panel a.current{color:var(--gold);}
 
 .logo{text-align:center;font-family:var(--font-headline);display:block;}
-.logo .logo-main{font-size:44px;letter-spacing:0.16em;font-weight:600;line-height:1;}
-.logo .logo-sub{font-size:11px;letter-spacing:0.5em;margin-top:4px;font-weight:400;}
+.logo{color:var(--gold);}
+.logo .logo-main{font-size:46px;letter-spacing:0.14em;font-weight:500;line-height:1;padding-left:0.14em;}
+.logo .logo-sub{display:flex;align-items:center;justify-content:center;gap:10px;margin-top:7px;font-family:'Jost',sans-serif;font-size:10px;letter-spacing:0.34em;font-weight:500;text-transform:uppercase;}
+.logo .logo-sub::before,.logo .logo-sub::after{content:"";width:22px;height:1px;background:currentColor;}
+.logo .logo-sub span{padding-left:0.34em;}
 
 /* ---------- Mobile dropdown nav panel (built by JS, shown only under 820px) ----------
    Positioned absolutely against the (sticky) header.main so opening the
@@ -363,8 +366,8 @@ section{padding:56px 0 0;}
 .hero-nav-item.active .nav-category{color:var(--gold);}
 .hero-nav-item .nav-thumb-link{
   display:block;
-  width:64px;
-  height:64px;
+  width:84px;
+  height:84px;
   flex-shrink:0;
   overflow:hidden;
 }
@@ -387,7 +390,7 @@ section{padding:56px 0 0;}
 }
 .hero-nav-item .nav-title{
   font-family:var(--font-headline);
-  font-size:12.5px;
+  font-size:13.5px;
   font-weight:600;
   line-height:1.3;
   margin-bottom:4px;
@@ -496,7 +499,7 @@ section{padding:56px 0 0;}
 }
 
 /* ==========================================================
-   HOME — CATEGORY BLOCKS (People / Table / Society / The View)
+   HOME — CATEGORY BLOCKS (People / Dining / Events / The View)
    Fixed 3-column content blocks, below the fold  (WP: front-page.php)
    ========================================================== */
 .category-blocks{padding-bottom:8px;}
@@ -1363,7 +1366,8 @@ footer{background:var(--black);color:#c9c6bf;}
   .navwrap .nav-links.right{display:none;}
   .mobile-nav-panel{display:flex;}
   .logo .logo-main{font-size:32px;}
-  .logo .logo-sub{font-size:9px;letter-spacing:0.4em;}
+  .logo .logo-sub{font-size:8px;letter-spacing:0.28em;gap:7px;margin-top:5px;}
+  .logo .logo-sub::before,.logo .logo-sub::after{width:14px;}
   footer .footer-wrap, .footer-wrap{flex-direction:column;gap:12px;text-align:center;}
   .footer-links{flex-wrap:wrap;justify-content:center;gap:14px;}
   /* -- home -- */
