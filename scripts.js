@@ -96,7 +96,8 @@ document.addEventListener('DOMContentLoaded', () => {
       people: 'Read Interview',
       interviews: 'Read Interview',
       'the view': 'Full Article',
-      opinion: 'Full Article'
+      opinion: 'Full Article',
+      'the cover': 'Read the Full Story'
     };
     const DEFAULT_CTA = 'Full Article';
 

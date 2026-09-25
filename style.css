@@ -1424,3 +1424,30 @@ footer{background:var(--black);color:#c9c6bf;}
   .packages-grid{grid-template-columns:1fr;}
   .advertise-form button{width:100%;}
 }
+
+/* -- Post additions: standfirst, inline figure, source note -- */
+.post-standfirst{
+  font-family:var(--font-headline);
+  font-style:italic;
+  font-size:20px;
+  line-height:1.5;
+  color:var(--text-muted);
+  margin:-8px 0 22px;
+}
+.post-inline-img{margin:36px 0 40px;}
+.post-inline-img img{width:100%;height:auto;max-height:640px;object-fit:cover;object-position:center 20%;display:block;}
+.post-inline-img figcaption{
+  font-size:11px;
+  letter-spacing:0.04em;
+  color:var(--text-muted);
+  margin-top:10px;
+  font-style:italic;
+}
+.post-body .post-sources{
+  font-size:13px;
+  font-style:italic;
+  color:var(--text-muted);
+  border-top:1px solid var(--hairline);
+  padding-top:18px;
+  margin-top:36px;
+}
