@@ -1451,3 +1451,8 @@ footer{background:var(--black);color:#c9c6bf;}
   padding-top:18px;
   margin-top:36px;
 }
+
+/* Stronger left-side shade for bright hero photos */
+.hero-slide--dim::after{
+  background:linear-gradient(90deg, rgba(0,0,0,0.78) 0%, rgba(0,0,0,0.55) 35%, rgba(0,0,0,0.1) 65%, rgba(0,0,0,0) 80%);
+}
