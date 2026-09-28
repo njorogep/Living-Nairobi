@@ -173,6 +173,21 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* ==========================================================
+     HOME TEMPLATE ONLY — Latest bar (scrolling strip)
+     Duplicates the items once so the CSS loop is seamless.
+     (WP: front-page.php — exits safely if #tickerTrack is absent)
+     ========================================================== */
+  const tickerTrack = document.getElementById('tickerTrack');
+  if (tickerTrack) {
+    Array.from(tickerTrack.children).forEach(item => {
+      const clone = item.cloneNode(true);
+      clone.setAttribute('aria-hidden', 'true');
+      clone.tabIndex = -1;
+      tickerTrack.appendChild(clone);
+    });
+  }
+
+  /* ==========================================================
      CATEGORY TEMPLATE ONLY — Load More (batch reveal)
      (WP: archive.php / category.php — exits safely if
      #categoryGrid isn't present, e.g. on front-page.php or single.php)

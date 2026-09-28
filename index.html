@@ -98,6 +98,25 @@
       <a href="category.html">The View</a>
     </nav>
   </header>
+
+  <!-- LATEST BAR (moving bar from Layout 2, relabelled) — WP: header.php,
+       newest posts, excluding the cover slides and Most Read posts
+       (WP_Query: orderby date, post__not_in = hero + Most Read IDs) -->
+  <div class="ticker" aria-label="Latest stories">
+    <div class="wrap ticker-row">
+      <span class="ticker-label">Latest</span>
+      <div class="ticker-viewport">
+        <div class="ticker-track" id="tickerTrack">
+          <a href="post.html"><span class="ticker-cat">The View</span>Nairobi Now: The Ultimate City Guide</a>
+          <a href="post.html"><span class="ticker-cat">People</span>The Business of Style: Nairobi's Creative Entrepreneurs</a>
+          <a href="post.html"><span class="ticker-cat">Dining</span>Where to Dine Right Now: 8 Hot Restaurants We Love</a>
+          <a href="post.html"><span class="ticker-cat">People</span>Faces of the City: Meet the Change-Makers</a>
+          <a href="post.html"><span class="ticker-cat">The View</span>Street Style: Inside the Looks Defining the City</a>
+          <a href="post.html"><span class="ticker-cat">Dining</span>Farm to Fork: Nairobi's Best Seasonal Menus</a>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- ======================= END HEADER ======================= -->
 
 
@@ -355,8 +374,6 @@
   <!-- ======================= END FOOTER ======================= -->
 
   <script src="scripts.js" defer></script>
-  <!-- LAYOUT SWITCHER — design review only. Delete this line (and layout-switcher.js) before go-live. -->
-  <script src="layout-switcher.js" defer></script>
 
 </body>
 </html>
