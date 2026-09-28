@@ -1,0 +1,16 @@
+{
+  "name": "Namna | The Way We Live",
+  "short_name": "Namna",
+  "description": "Exploring life, culture and people across Kenya and beyond — people, dining, style, events, travel and the view.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f7f4ee",
+  "theme_color": "#111111",
+  "lang": "en-KE",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
