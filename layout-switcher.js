@@ -12,7 +12,7 @@
     { n: 2, file: 'index1.html', name: 'Editorial Grid', note: 'Magazine grid + sidebar' },
     { n: 3, file: 'index2.html', name: 'Feature-Heavy',  note: 'Full-width hero + mix' },
     { n: 4, file: 'index3.html', name: 'Minimalist',     note: 'Clean, focused, airy' },
-    { n: 5, file: 'index4.html', name: 'Current + Trending', note: 'Layout 1 with the trending bar' }
+    { n: 5, file: 'index4.html', name: 'Current + Latest', note: 'Layout 1 with the Latest bar' }
   ];
 
   // Which layout is this page? (Vercel may serve "/" or "/index" for index.html)

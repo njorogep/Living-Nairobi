@@ -1,5 +1,5 @@
 /* ==========================================================
-   NAMNA — LAYOUT OPTION 5: CURRENT + TRENDING BAR
+   NAMNA — LAYOUT OPTION 5: CURRENT + LATEST BAR
    Runs alongside scripts.js on index4.html only.
    Duplicates the ticker items once so the CSS loop is seamless.
    ========================================================== */

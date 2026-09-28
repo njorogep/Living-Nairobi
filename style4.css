@@ -1,7 +1,7 @@
 /* ==========================================================
-   NAMNA — LAYOUT OPTION 5: CURRENT + TRENDING BAR
+   NAMNA — LAYOUT OPTION 5: CURRENT + LATEST BAR
    Loaded AFTER style.css on index4.html only. Adds the
-   scrolling Trending bar from Layout 2 beneath the header.
+   scrolling bar from Layout 2 (as "Latest") beneath the header.
    Everything else is the current homepage, unchanged.
    ========================================================== */
 .ticker{background:#fff;border-bottom:1px solid var(--hairline);}
