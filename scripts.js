@@ -94,6 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
       dining: 'View the Menu',
       events: 'See the Highlights',
       people: 'Read Interview',
+      'beyond the title': 'Read Interview',
       interviews: 'Read Interview',
       'the view': 'Full Article',
       opinion: 'Full Article',
